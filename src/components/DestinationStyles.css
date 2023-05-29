@@ -1,0 +1,132 @@
+.destination{
+    text-align: center;
+    margin:  5rem;
+}
+.destination h1{
+    font-size: 30px;
+}
+.destination p{
+    margin-top: 12px;
+    font-size: 22px;
+}
+.des-text h2{
+    font-size: 30px;
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+    margin-top: 4rem;
+    /* border: 3px solid #444; */
+    height: 30%;
+}
+.des1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 7rem;
+    
+    height: 30%;
+}
+.des-text{
+    /* border: 2px solid silver; */
+    text-align: start;
+    width: 45%;
+    height: 40vh;
+}
+.des-img{
+    width: 50%;
+    display:flex;
+   align-items: center;
+   gap: 20px;
+   /* box-shadow: 4px 5px 2px #000; */
+   position: relative;
+}
+.des-img img{
+    border-radius: 7px;
+    width: 49%;
+    height: 70vh;
+    object-fit: cover;
+}
+.des-img img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right:0;
+}
+@media screen and (max-width:768px){
+    .destination{
+        text-align: center;
+       margin-top: -100px;
+       margin:2rem;
+    }
+   
+    .des{
+       
+        flex-direction: column-reverse;
+       
+        margin-top: 5rem;
+        
+        height: 30%;
+    }
+    .des-img{
+        width: 100%;
+        
+    }
+    .des-text{
+        /* border: 2px solid silver; */
+        text-align: start;
+        width: 100%;
+        height: 40vh;
+        margin-top: 20px;
+    }
+    .destination p{
+       
+        font-size: 32px;
+    }
+    .destination h1{
+        font-size: 35px;
+    }
+    .des1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 10rem;
+        
+        height: 30%;
+    }
+}
+@media  screen and (max-width:600px) {
+    .destination p {
+        font-size: 22px;
+    }
+    .destination{
+       
+        margin-top:-100px;
+    }
+    .des-img{
+        width: 100%;
+       
+    }
+    .des-img img{
+        height: 250px;
+        width: 47%;
+        
+    }
+    .des{
+       
+       
+       
+        margin-top: 3rem;
+        
+       
+    }
+    .des1{
+       
+        margin-top: 4rem;
+        
+       
+    }
+}
